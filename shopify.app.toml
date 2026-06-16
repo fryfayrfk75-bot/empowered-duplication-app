@@ -45,8 +45,7 @@ api_version = "2026-07"
   topics = [ "app/scopes_update" ]
 
 [auth]
-redirect_urls = [ "https://empowered-duplication-app-production.up.railway.app/api/auth" ]
+redirect_urls = [ "https://empowered-duplication-app-production.up.railway.app/auth/callback" ]
 
 [build]
-include_config_on_deploy = true
 automatically_update_urls_on_dev = true
